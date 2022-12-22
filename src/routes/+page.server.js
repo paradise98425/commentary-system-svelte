@@ -37,7 +37,7 @@ export const actions = {
 	create: async ({ request }) => {
 		// TODO: CREATE A SEPERATE HELPER FUNCTION TO PARSE ALL THE FORM DATA
 		const formData = await request.formData();
-		const comment = formData.get('comment_input');
+		const comment = formData.get('comment_input_field');
 		const replyFor = formData.get('replyFor');
 
 		// TODO: CREATE A FORM VALIDATOR FUNCTION THAT WORKS THROUGHOUT THE PROJECT

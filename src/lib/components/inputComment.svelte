@@ -52,7 +52,7 @@
 	<input
 		id="comment_input"
 		type="text"
-		name="comment_input"
+		name="comment_input_field"
 		placeholder="Leave your comment"
 		class="w-full py-1 rounded text-sm pl-0 text-coolGray-100 focus:outline-none foucs:shadow-xl"
 		style="cursor: auto;"
